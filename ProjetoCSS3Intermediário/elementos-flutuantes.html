@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elementos Flutuantes</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            .conteudo{
+                background: purple;
+                border: 5px solid green;
+                width: 150px;
+                height: 150px;
+                float: left;
+                margin: 10px;
+            }
+
+            p{
+                background-color: black;
+                color: white;
+                padding: 40px;
+            }
+
+            #principal{
+                background-color: green;
+                border: 5px solid red;
+            }
+
+            .clear{
+                clear: both;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <div id="principal">
+            <div class="conteudo"> <p>Alguma coisa </p></div> 
+            <div class="conteudo"> <p>Qualquer coisa</p></div> 
+            <div class="conteudo"> <p>Anything</p></div>
+            <div class="clear"></div> 
+        </div>
+    </body>
+</html>

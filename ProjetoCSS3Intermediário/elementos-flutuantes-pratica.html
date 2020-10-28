@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Elementos flutuantes na prática</title>
+
+        <style type="text/css">
+
+            #principal{
+                width: 920px;
+            }
+
+            .noticia{
+                background: black;
+                width: 280px;
+                padding: 5px;
+                margin: 7px;
+                float: left;
+                text-align: center;
+            }
+
+            h2{
+                color: cyan;
+                text-align: left;
+            }
+
+            p{
+                color: whitesmoke;
+                text-align: left;
+            }
+
+            a{
+                color: cyan;
+            }
+
+            .imagem-galeria{
+                background: cyan;
+                width: 265px;
+                padding: 5px;
+                margin: 15px;
+                float: left;
+            }
+
+            .clear{
+                clear: both;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div id="principal">
+
+            <div>
+
+                <div class="noticia">
+                    <h2>Estão deixando a gente sonhar</h2>
+                    <p>
+                        O renomado jogador Ronaldinho Gaúcho depois de 5 meses preso no Paraguai por usar passaportes falsos finalmente foi solto na manhã de hoje dia 25 de agosto...
+                    </p>
+                    <img src="imagens/ronaldinhoSolto.jpg" alt="ronaldinho" width="265" height="210">
+                    <a href="">Continue lendo</a>
+                </div>
+
+                <div class="noticia">
+                    <h2>Você é assim, um sonho pra mim....</h2>
+                    <p>
+                        E continua apenas nos sonhos de Neymar ganhar a Champions League sendo o protagonista do time, veja o que o jogador falou após a derrota de 1x0 para o Bayern de Munique...
+                    </p>
+                    <img src="imagens/neymarChoro.jpg" alt="neymar" width="265" height="210">
+                    <a href="">Continue lendo</a>
+
+                </div>
+
+
+            </div>
+
+            <div class="clear"></div>
+
+                    
+        </div>
+    </body>
+</html>
