@@ -27,6 +27,22 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
+    width: 75px;
+    height: 50px;
+    text-align: center;
+}
+
+.menuIn2{
+    padding: 5px;
+    background-color: black;
+    opacity: 50;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
 }
 
 #footer{
