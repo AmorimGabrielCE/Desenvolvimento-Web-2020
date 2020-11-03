@@ -1,0 +1,39 @@
+#backgrnd{
+    background-image: url("imagens/gray-back.jpg");
+    background-color: #cccccc;
+    opacity: 0.75;
+}
+
+#logo{
+    float: left;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#logo2{
+    float: right;
+}
+
+#menu{
+    float: right;
+}
+
+.menuIn{
+    padding: 5px;
+    background-color: black;
+    opacity: 50;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+#footer{
+    float: left;
+}
+
+a{
+    text-decoration-line: none;
+    color: antiquewhite;
+}
